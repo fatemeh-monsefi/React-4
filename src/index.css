@@ -1,0 +1,21 @@
+.post-container {
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.post-container ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+}
+
+.post-container li{
+    list-style: none;
+    border: 3px gray solid;
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 350px;
+    padding: 30px;
+}
+
